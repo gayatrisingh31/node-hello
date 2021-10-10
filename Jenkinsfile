@@ -2,7 +2,7 @@ pipeline{
   agent{
   label "slave"
   }
-  tools {nodejs "Node"}
+  tools {nodejs "node"}
   stages {
    stage ('build'){
      steps{
